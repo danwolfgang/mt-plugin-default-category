@@ -4,8 +4,8 @@ id: defaultcategory
 description: 'Specify a default category for all entries.'
 author_name: 'Dan Wolfgang, uiNNOVATIONS'
 author_link: http://uinnovations.com/
-version: 2.0
 plugin_link: http://eatdrinksleepmovabletype.com/plugins/default_category/
+version: 2.0.1
 
 blog_config_template:
     code: $DefaultCategory::DefaultCategory::Plugin::blog_config_template
