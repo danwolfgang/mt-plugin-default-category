@@ -87,7 +87,7 @@ sub _generate_category_list {
     my ($selected, @cats);
 
     foreach my $c (@categories) {
-        if ($default eq $c->basename) {
+        if ($default && $default eq $c->basename) {
             $selected = 1;
         }
         else {
